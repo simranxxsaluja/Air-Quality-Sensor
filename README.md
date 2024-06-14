@@ -1,2 +1,4 @@
 # Air-Quality-Sensor
 ### Project Presentation & Demo Video: https://drive.google.com/file/d/1xG6uy7XI_-1PooUbbgy5OfS3e_AfKNNJ/view?usp=sharing
+
+### I combined C++ and Arduino components to create an Air Quality Sensor with three levels of detection, and a temperature and humidity sensor. Using the Arduino Nano (due to its small and convenient size), I connected the system to my computer. Physical LED lights glow red when the air quality is bad, green when the air quality is good, and blue when the air quality is average. A buzzer displays a tone sequence when the air quality is bad, similar to a fire detector system in school's and homes. I utilized a DHT sensor to detect temperature and humidity, and a MQ135 sensor to determine air quality levels in analog values. My program displays the specific air quality levels, temperature in farenheight, and humidity in percentage, on an LCD screen. 
